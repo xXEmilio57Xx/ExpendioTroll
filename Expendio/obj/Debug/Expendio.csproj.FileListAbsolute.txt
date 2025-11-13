@@ -1,0 +1,16 @@
+C:\Users\Emilio Portillo\Desktop\Expendio\Expendio\bin\Debug\Expendio.exe.config
+C:\Users\Emilio Portillo\Desktop\Expendio\Expendio\bin\Debug\Expendio.exe
+C:\Users\Emilio Portillo\Desktop\Expendio\Expendio\bin\Debug\Expendio.pdb
+C:\Users\Emilio Portillo\Desktop\Expendio\Expendio\obj\Debug\Expendio.csproj.AssemblyReference.cache
+C:\Users\Emilio Portillo\Desktop\Expendio\Expendio\obj\Debug\Expendio.Form1.resources
+C:\Users\Emilio Portillo\Desktop\Expendio\Expendio\obj\Debug\Expendio.Properties.Resources.resources
+C:\Users\Emilio Portillo\Desktop\Expendio\Expendio\obj\Debug\Expendio.csproj.GenerateResource.cache
+C:\Users\Emilio Portillo\Desktop\Expendio\Expendio\obj\Debug\Expendio.csproj.CoreCompileInputs.cache
+C:\Users\Emilio Portillo\Desktop\Expendio\Expendio\obj\Debug\Expendio.exe
+C:\Users\Emilio Portillo\Desktop\Expendio\Expendio\obj\Debug\Expendio.pdb
+C:\Users\Emilio Portillo\Desktop\Expendio\Expendio\obj\Debug\Interop.MediaPlayer.dll
+C:\Users\Emilio Portillo\Desktop\Expendio\Expendio\obj\Debug\Interop.WMLSS.dll
+C:\Users\Emilio Portillo\Desktop\Expendio\Expendio\obj\Debug\Interop.WMPDXMLib.dll
+C:\Users\Emilio Portillo\Desktop\Expendio\Expendio\obj\Debug\Interop.WMPLauncher.dll
+C:\Users\Emilio Portillo\Desktop\Expendio\Expendio\obj\Debug\Interop.WMPLib.dll
+C:\Users\Emilio Portillo\Desktop\Expendio\Expendio\obj\Debug\Expendio.csproj.ResolveComReference.cache
