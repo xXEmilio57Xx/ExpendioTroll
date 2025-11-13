@@ -36,9 +36,9 @@
          this.pictureBox2 = new System.Windows.Forms.PictureBox();
          this.btnTecateLight = new System.Windows.Forms.Button();
          this.btnTecateRoja = new System.Windows.Forms.Button();
-         this.button3 = new System.Windows.Forms.Button();
-         this.btnUsuario = new System.Windows.Forms.Button();
-         this.button1 = new System.Windows.Forms.Button();
+         this.btnIngresar = new System.Windows.Forms.Button();
+         this.txtUsuario = new System.Windows.Forms.TextBox();
+         this.txtContraseña = new System.Windows.Forms.TextBox();
          ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
          ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
          this.SuspendLayout();
@@ -118,43 +118,44 @@
          this.btnTecateRoja.UseVisualStyleBackColor = true;
          this.btnTecateRoja.Click += new System.EventHandler(this.btnTecateRoja_Click);
          // 
-         // button3
+         // btnIngresar
          // 
-         this.button3.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(193)))), ((int)(((byte)(104)))));
-         this.button3.FlatAppearance.BorderSize = 2;
-         this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-         this.button3.Location = new System.Drawing.Point(201, 318);
-         this.button3.Name = "button3";
-         this.button3.Size = new System.Drawing.Size(310, 41);
-         this.button3.TabIndex = 11;
-         this.button3.Text = "Ingresar";
-         this.button3.UseVisualStyleBackColor = true;
+         this.btnIngresar.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(193)))), ((int)(((byte)(104)))));
+         this.btnIngresar.FlatAppearance.BorderSize = 2;
+         this.btnIngresar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+         this.btnIngresar.Location = new System.Drawing.Point(201, 318);
+         this.btnIngresar.Name = "btnIngresar";
+         this.btnIngresar.Size = new System.Drawing.Size(310, 41);
+         this.btnIngresar.TabIndex = 11;
+         this.btnIngresar.Text = "Ingresar";
+         this.btnIngresar.UseVisualStyleBackColor = true;
+         this.btnIngresar.Click += new System.EventHandler(this.btnIngresar_Click);
          // 
-         // btnUsuario
+         // txtUsuario
          // 
-         this.btnUsuario.FlatAppearance.BorderSize = 0;
-         this.btnUsuario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-         this.btnUsuario.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-         this.btnUsuario.Location = new System.Drawing.Point(261, 181);
-         this.btnUsuario.Name = "btnUsuario";
-         this.btnUsuario.Size = new System.Drawing.Size(216, 31);
-         this.btnUsuario.TabIndex = 12;
-         this.btnUsuario.Text = "Usuario";
-         this.btnUsuario.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-         this.btnUsuario.UseVisualStyleBackColor = true;
+         this.txtUsuario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
+         this.txtUsuario.BorderStyle = System.Windows.Forms.BorderStyle.None;
+         this.txtUsuario.ForeColor = System.Drawing.Color.White;
+         this.txtUsuario.Location = new System.Drawing.Point(261, 185);
+         this.txtUsuario.Name = "txtUsuario";
+         this.txtUsuario.Size = new System.Drawing.Size(207, 27);
+         this.txtUsuario.TabIndex = 12;
+         this.txtUsuario.Text = "Usuario";
+         this.txtUsuario.Enter += new System.EventHandler(this.txtUsuario_Enter);
+         this.txtUsuario.Leave += new System.EventHandler(this.txtUsuario_Leave);
          // 
-         // button1
+         // txtContraseña
          // 
-         this.button1.FlatAppearance.BorderSize = 0;
-         this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-         this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-         this.button1.Location = new System.Drawing.Point(261, 258);
-         this.button1.Name = "button1";
-         this.button1.Size = new System.Drawing.Size(216, 31);
-         this.button1.TabIndex = 13;
-         this.button1.Text = "Contraseña";
-         this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-         this.button1.UseVisualStyleBackColor = true;
+         this.txtContraseña.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
+         this.txtContraseña.BorderStyle = System.Windows.Forms.BorderStyle.None;
+         this.txtContraseña.ForeColor = System.Drawing.Color.White;
+         this.txtContraseña.Location = new System.Drawing.Point(261, 263);
+         this.txtContraseña.Name = "txtContraseña";
+         this.txtContraseña.Size = new System.Drawing.Size(207, 27);
+         this.txtContraseña.TabIndex = 13;
+         this.txtContraseña.Text = "Contraseña";
+         this.txtContraseña.Enter += new System.EventHandler(this.txtContraseña_Enter);
+         this.txtContraseña.Leave += new System.EventHandler(this.txtContraseña_Leave);
          // 
          // Form1
          // 
@@ -162,9 +163,9 @@
          this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
          this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
          this.ClientSize = new System.Drawing.Size(722, 395);
-         this.Controls.Add(this.button1);
-         this.Controls.Add(this.btnUsuario);
-         this.Controls.Add(this.button3);
+         this.Controls.Add(this.txtContraseña);
+         this.Controls.Add(this.txtUsuario);
+         this.Controls.Add(this.btnIngresar);
          this.Controls.Add(this.btnTecateRoja);
          this.Controls.Add(this.btnTecateLight);
          this.Controls.Add(this.pictureBox2);
@@ -194,9 +195,9 @@
       private System.Windows.Forms.PictureBox pictureBox2;
       private System.Windows.Forms.Button btnTecateLight;
       private System.Windows.Forms.Button btnTecateRoja;
-      private System.Windows.Forms.Button button3;
-      private System.Windows.Forms.Button btnUsuario;
-      private System.Windows.Forms.Button button1;
+      private System.Windows.Forms.Button btnIngresar;
+      private System.Windows.Forms.TextBox txtUsuario;
+      private System.Windows.Forms.TextBox txtContraseña;
    }
 }
 

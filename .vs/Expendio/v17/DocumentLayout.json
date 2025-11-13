@@ -5,10 +5,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{97549EAE-B1E4-41B8-9E2F-490147204E66}|Expendio\\Expendio.csproj|c:\\users\\emilio portillo\\desktop\\expendio\\expendio\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{97549EAE-B1E4-41B8-9E2F-490147204E66}|Expendio\\Expendio.csproj|solutionrelative:expendio\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97549EAE-B1E4-41B8-9E2F-490147204E66}|Expendio\\Expendio.csproj|c:\\users\\emilio portillo\\desktop\\expendio\\expendio\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97549EAE-B1E4-41B8-9E2F-490147204E66}|Expendio\\Expendio.csproj|solutionrelative:expendio\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 329,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -27,19 +23,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\Emilio Portillo\\Desktop\\Expendio\\Expendio\\Form1.cs",
-              "RelativeDocumentMoniker": "Expendio\\Form1.cs",
-              "ToolTip": "C:\\Users\\Emilio Portillo\\Desktop\\Expendio\\Expendio\\Form1.cs",
-              "RelativeToolTip": "Expendio\\Form1.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAgwBMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T18:25:15.194Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
